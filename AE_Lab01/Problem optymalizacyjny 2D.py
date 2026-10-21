@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+#Mamy funkcję opisaną przez wzór F(x1,x2)=sin(x1*0.05) +sin(x2*0.05) +0.4*sin(x1*0.15)*sin(x2*0.15)
+#(operowanie na radianach a nie stopniach) , przedział zmienności x1 i x2 to [0; 100].
+#Proszę 20 do 100 razy wylosować wartości x1 i x2, następnie proszę podać wartość
+#najlepszej pary (x1; x2) i funkcji przystosowania dla nich wyliczonych.
+
 
 class GeneratorLosowy():
     def __init__(self):
