@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-Dane = pd.read_csv("szumoida_10.csv",header=None)
+Dane = pd.read_csv("szumoida_10.csv", header=None)
 
 x = Dane.iloc[:,0].to_numpy()
 y = Dane.iloc[:,1].to_numpy()
