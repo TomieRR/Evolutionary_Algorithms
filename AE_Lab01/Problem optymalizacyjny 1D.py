@@ -7,6 +7,14 @@ import pandas as pd
 
 
 
+#Mamy funkcję opisaną przez wzór y=sin(x/10)*sin(x/200) (operowanie na radianach a nie
+#stopniach). Naszym celem jest znalezienie znalezienie jak najwyższej wartości y, czyli funkcja
+#przystosowania to tutaj F(x)=sin(x/… i w tym przykładzie dążymy do maksymalizacji F. Dla
+#eksperymentu przyjmuje się, że x mieści się w [0; 100]. Proszę wylosować 20 razy wartość x z
+#przedziału [0; 100], następnie proszę podać wartość wszystkich wylosowanych x, następnie wartość
+#najlepszego x i y .
+
+
 class GeneratorLosowy():
 
     def __init__(self):
