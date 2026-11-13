@@ -13,7 +13,7 @@ iteracje = 20
 x_min = 0
 x_max = 100
 
-x_rn = 35 #right now
+x_rn = 35
 y_rn = funkcja(x_rn)
 
 lista_x_rn = []
